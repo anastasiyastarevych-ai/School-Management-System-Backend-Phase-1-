@@ -17,9 +17,10 @@ SubscriptionPlans: Абонементи та контроль залишку з�
 Attendance: Система відмітки відвідуваності.
 
 # Як запустити проєкт
+1. Створити та активувати venv: source venv/bin/activate
 
-Встановити залежності: pip install django
+2. Встановити залежності: pip install django
 
-Виконати міграції: python manage.py migrate
+3. Виконати міграції: python manage.py migrate
 
-Запустити сервер: python manage.py runserver
+4. Запустити сервер: python manage.py runserver
